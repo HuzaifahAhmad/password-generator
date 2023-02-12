@@ -1,0 +1,111 @@
+body {
+    margin: 0px;
+    background-color: #1F2937;
+}
+
+h1 {
+    color: #ffffff;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+p {
+    color: #55F991;
+}
+
+
+#container {
+    width: 370px;
+    margin: 40px auto;
+    padding: 40px;
+    
+}
+
+#title {
+    margin-bottom: 0px;
+}
+
+#subtitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #D5D4D8;
+    margin-top: 10px;
+    
+}
+
+#random-password-txt {
+    color: #55F991;
+}
+
+#generate-password-btn {
+    background: #10B981;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    padding: 9px 17px 9px 15px;
+    border: none;
+    color: #ffffff;
+    margin-top: 30px;
+}
+
+#line-below-btn {
+    background: #273549;
+    margin-top: 30px;
+    height: 2px;
+}
+
+#display-password-container {
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 13px;
+    text-align: center;
+    
+}
+
+
+
+#display-password-one {
+    background: #273549;    
+    margin-top: 30px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px 15px;
+    height: 15px;
+    width: 145px;
+    position:relative;
+}
+
+#display-password-two {
+    background: #273549;
+    margin-top: 30px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px 15px;
+    height: 15px;
+    width: 145px;
+    position:relative;
+}
+
+
+#generate-password-btn:hover {
+    cursor: pointer;
+}
+
+#generate-password-btn:active {
+    background-color: #096647;
+}
+
+
+
+  
+
+ 
